@@ -1,0 +1,18 @@
+{
+  "name": "eslint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "eslint:fix": "eslint ./src --fix --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.30.4",
+    "@typescript-eslint/parser": "5.30.4",
+    "eslint": "8.19.0",
+    "eslint-plugin-react": "7.30.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
